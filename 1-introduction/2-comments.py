@@ -1,0 +1,20 @@
+# declare and initialize variables
+name = "John"
+age = 21
+
+# print output
+print(f"Name: {name}\nAge: {age}")
+
+'''
+Multiline 
+comment
+using 
+docStrings
+works if not assigned to any variable
+'''
+
+# Multiline
+# comment
+# using
+# pound
+# symbol
