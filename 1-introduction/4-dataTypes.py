@@ -12,7 +12,7 @@
 # variables are instances of these classes
 # hence can use constructor or literal to create them
 
-# Numbers
+# Numbers: int/float/complex
 num1 = 1
 num2 = 2.5
 num3 = 2+3j
@@ -28,7 +28,7 @@ product = ("Microsoft", "X-box", 500)
 print(product[0])
 print(type(product))
 
-# str: ""
+# str: sequence of characters enclosed in double quotes/""
 name = "John Doe"
 print(name)
 print(type(name))
@@ -39,7 +39,12 @@ print(studentIds)
 print(type(studentIds))
 
 # dict: ordered/key-value pairs
-student = {"name": "John Doe", "age": 21, "gender": "male"}
+# student = {"name": "John Doe", "age": 21, "gender": "male"}
+student = {
+    "name": "John Doe",
+    "age": 21,
+    "gender": "male"
+}
 print(student["name"])
 print(student.get("name"))
 # print(student.get("score")) # None

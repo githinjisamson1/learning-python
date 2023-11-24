@@ -12,7 +12,7 @@ print(siteName)
 a, b, c = 1, 2.5, "Hello"
 print(a, b, c)
 
-#!constants
+#!constants: import/use
 print(constants.PI, constants.GRAVITY)
 
 #!literals: literals are values assigned

@@ -1,8 +1,8 @@
 
-# !arithmentic operators
+# !arithmetic operators
 # + - * / // % **
 
-# !assignment/augmented
+# !assignment/augmented/compound
 # = += -= *= /= %= **=
 
 # !comparison
@@ -10,7 +10,7 @@
 
 # !logical
 # and: both must be true
-# or: atleast one is true
+# or: at least one is true
 # not: reverse
 # TODO: check truth table
 
@@ -36,4 +36,4 @@ str1 = "Hello World!"
 dict1 = {"a": 1, "b": 2}
 print("Hello" in str1)  # True
 print("a" in dict1)  # True
-print("WORLD" not in str1)  # False
+print("WORLD" not in str1)  # True

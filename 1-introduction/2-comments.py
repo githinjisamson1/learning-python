@@ -18,3 +18,7 @@ works if not assigned to any variable
 # using
 # pound
 # symbol
+
+'''
+Multiline comment
+'''

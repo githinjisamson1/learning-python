@@ -8,10 +8,10 @@
 # flush: output is flushed/buffered?
 
 
-# with object param
+# with object param: adds newline character automatically
 print("Hello World!")
 
-# with end param
+# with end param: does not add newline character automatically
 print("Hello", end="! ")
 print("World")
 
@@ -19,8 +19,8 @@ print("World")
 print("Hello", "John", sep=".")
 
 # !also
-# We can also use the print() function to print Python variables.
-# We can also join two strings together inside the print() statement.
+# We can also use the print() function to print Python variables
+# We can also join two strings together inside the print() statement/+
 
 # !output formatting
 x = 5

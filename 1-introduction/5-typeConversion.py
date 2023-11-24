@@ -1,5 +1,5 @@
 
-# !implicit conversion: automatically by python interpreter/small to large/avoids data loss
+# !implicit conversion: automatically done by python interpreter/small to large/avoids data loss
 value1 = 5
 value2 = 5.5
 print(type(value1 + value2))  # float
