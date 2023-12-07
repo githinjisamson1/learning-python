@@ -81,7 +81,7 @@ countryCapitals = {"Kenya": "Nairobi",
                    "Uganda": "Kampala", "Tanzania": "Dar er Salaam"}
 
 print("Kenya" in countryCapitals)
-print("Sudana" not in countryCapitals)
+print("Sudan" not in countryCapitals)
 
 # !iterate over a dictionary
 for item in countryCapitals:

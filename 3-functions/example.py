@@ -8,7 +8,7 @@ def add(a, b):
 number1 = 1
 
 # dir(): list all definitions in example.py
-# start with underscore (built-in): magic/dunder/double underscore methods
+# those start with underscore (built-in) are called: magic/dunder/double underscore methods
 # are associated with the module
 print(dir())
 

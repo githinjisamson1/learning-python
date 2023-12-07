@@ -19,7 +19,7 @@ print(num3, 'is of type', type(num3))
 # hexadecimal: 0x
 
 # !type conversion
-# implicit: done autumatically
+# implicit: done automatically
 print(1 + 2.0)  # prints 3.0
 
 # explicit: done manually

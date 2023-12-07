@@ -38,7 +38,7 @@ print('Data type of empty_dictionary', type(empty_dictionary))
 numbers = {2, 4, 6, 6, 2, 8}
 print(numbers)   # {8, 2, 4, 6}
 
-# !add/updated set items
+# !add/update set items
 # !add: add an item to set
 numbers = {21, 34, 54, 12}
 
@@ -70,7 +70,7 @@ removedValue = languages.discard('Java')
 print('Set after remove():', languages)
 
 
-# !built-in fucntions with set
+# !built-in functions with set
 '''
 all/any/enumerate/len/max/min/sorted/sum
 '''

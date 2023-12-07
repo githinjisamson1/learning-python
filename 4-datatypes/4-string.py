@@ -32,7 +32,7 @@ print(greet[1:4])  # "ell"
 # message[0] = 'H'
 # print(message)
 
-# !multiline string: docstrings
+# !multiline string: docstring
 # multiline string
 message = """
 Never gonna give you up

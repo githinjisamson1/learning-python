@@ -1,6 +1,6 @@
 
 
-# !local varible: inside function
+# !local variable: inside function
 def greet():
 
     # local variable
@@ -22,7 +22,7 @@ message = 'Hello'
 
 
 def greet():
-    # declare local variable
+    # !declare local variable
     print('Local', message)
 
 
@@ -39,7 +39,7 @@ def outer():
     # nested function
     def inner():
 
-        # declare nonlocal variable
+        # !declare nonlocal variable
         nonlocal message
 
         message = 'nonlocal'

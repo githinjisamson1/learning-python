@@ -22,7 +22,7 @@ for i in values:
     print(i)
 
 # !not using items in sequence in loopy body
-# _ denotes will not be used in loopy body
+# _ denotes will not be used in loopy body/normally referred to as a wildcard
 for _ in fruits:
     print("Hello")
     print("Hi")

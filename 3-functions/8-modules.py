@@ -2,6 +2,7 @@
 
 # TODO: modules
 '''
+A modlule is simply a python file/can contain variables/functions/classes
 keep code CLEAN!REUSABLE!MODULAR!
 Instead of putting everything in a single file, 
 we can use modules to separate codes in separate files as per their functionality. 
@@ -23,7 +24,6 @@ import math as m
 # imports all definitions from math module
 # except those starting with underscore/private definitions
 from math import *
-
 
 
 # !module usage

@@ -71,4 +71,4 @@ print("JavaScript" in languages)
 
 # 3. Tuples that contain immutable elements can be used as a key for a dictionary. With lists, this is not possible.
 
-# 4. If you have data that doesn't change, implementing it as tuple will guarantee that it remains write-protected.
+# 4. If you have data that doesn't change, implementing it as a tuple will guarantee that it remains write-protected.

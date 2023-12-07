@@ -1,4 +1,8 @@
 
+# TODO:
+# !match...case for python 3.10
+# !dictionary mapping in place of if...elif...else
+
 # !if
 number = 10
 

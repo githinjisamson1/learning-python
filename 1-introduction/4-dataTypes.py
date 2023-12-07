@@ -4,7 +4,7 @@
 # String/str
 # Sequence/list, tuple, range
 # Mapping/dict
-# Set/set, frozeenset
+# Set/set, frozenset
 # Boolean/bool
 
 # !everything in python is an object
