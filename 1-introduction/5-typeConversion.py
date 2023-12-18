@@ -6,7 +6,7 @@ print(type(value1 + value2))  # float
 print(value1 + value2)
 
 # !explicit conversion: manual conversion/type casting/large to small/data may be lost
-# int()/float()/str()
+# use methods: int()/float()/str()
 num1 = "5"
 num2 = 4
 castedNum1 = int(num1)

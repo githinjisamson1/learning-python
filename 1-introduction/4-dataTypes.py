@@ -6,6 +6,7 @@
 # Mapping/dict
 # Set/set, frozenset
 # Boolean/bool
+# None
 
 # !everything in python is an object
 # hence data types are actually classes &
@@ -47,5 +48,5 @@ student = {
 }
 print(student["name"])
 print(student.get("name"))
-# print(student.get("score")) # None
+print(student.get("score")) # None
 print(type(student))

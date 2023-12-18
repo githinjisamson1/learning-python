@@ -3,7 +3,7 @@
 # print(object= separator= end= file= flush=)
 # object: values to be printed
 # sep: separator/.
-# end: add specific values/\n
+# end: add specific values/ \n
 # file: where to be printed
 # flush: output is flushed/buffered?
 
@@ -29,5 +29,5 @@ print("Numbers are {} and {}".format(x, y))
 
 # !input
 num1 = int(input("Enter number: "))  # type casting
-print("Number entered is: {}".format(num1))
 print(f"Number entered is: {num1}")
+# print("Number entered is: {}".format(num1))

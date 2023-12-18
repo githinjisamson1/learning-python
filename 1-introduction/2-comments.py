@@ -4,6 +4,7 @@ age = 21
 
 # print output
 print(f"Name: {name}\nAge: {age}")
+# print("Name: {}\nAge: {}".format(name, age))
 
 '''
 Multiline 
