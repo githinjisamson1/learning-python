@@ -2,6 +2,7 @@
 # !pass: we are telling the interpreter
 # !that we will implement some code block later
 # !interpreter ignores comment but not pass
+# promise to include/implement some code block later on
 
 number1 = 10
 

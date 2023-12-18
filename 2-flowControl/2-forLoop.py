@@ -1,5 +1,5 @@
 
-# TODO: !Execute a specified numbers of times/number of iterations is known
+# TODO: !Execute a segment of code a specified numbers of times/number of iterations is known
 
 # !with list
 fruits = ['apple', "banana", "cherry"]
@@ -28,7 +28,7 @@ for _ in fruits:
     print("Hi")
 
 
-# !with optional else block
+# !with optional else block/runs when condition evaluates to false
 digits = [1, 2, 3, 4, 5]
 
 for i in digits:
