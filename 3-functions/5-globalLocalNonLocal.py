@@ -13,7 +13,7 @@ greet()
 
 # try to access message variable
 # outside greet() function
-# print(message/)
+# print(message)
 
 
 # !global variable: inside module/file we are currently in 

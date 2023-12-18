@@ -2,8 +2,8 @@
 
 # TODO: modules
 '''
-A modlule is simply a python file/can contain variables/functions/classes
-keep code CLEAN!REUSABLE!MODULAR!
+A module is simply a python file/can contain variables/functions/classes
+keep code CLEAN!REUSABLE!MODULAR! == DRY
 Instead of putting everything in a single file, 
 we can use modules to separate codes in separate files as per their functionality. 
 This makes our code organized and easier to maintain.

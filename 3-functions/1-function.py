@@ -2,7 +2,7 @@
 import math
 
 # TODO: function
-# a routine that takes in one or more args and returns a single value
+# a routine that takes in one or more arg(s) and returns a single value
 # performs a specific task
 # types: library(built-in), user-defined
 
@@ -30,7 +30,7 @@ print(f"{celsius} C: {fahEquivalent(celsius)} F")
 # !recursion
 # !program to find the factorial of a number
 
-numberToFindFactorial = int(input("Enter number: "))
+numberToFindFactorial = int(input("Enter number to find factorial: "))
 
 
 def factorial(n):

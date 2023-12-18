@@ -21,7 +21,7 @@ select_difficulty(2)
 
 # !module vs package
 TODO: A module in Python is a single file containing Python code.
-t could be a script or a collection of functions, classes, and variables.
+It could be a script or a collection of functions, classes, and variables.
 Suppose you have a file named math_operations.py, which contains functions for basic mathematical operations like addition, subtraction, multiplication, etc. 
 This file is a module.
 

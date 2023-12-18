@@ -1,6 +1,6 @@
 
 # TODO: lambda/anonymous function
-# function that does not have a name
+# function that does not have a name/without a name
 
 # with no args
 greet = lambda : print("Hello World!")
