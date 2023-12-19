@@ -1,6 +1,6 @@
 
 # !string
-# sequence of characters enclosed in double quotes
+# sequence of characters enclosed in single/double quotes
 
 # create a string using double quotes
 string1 = "Python programming"
@@ -17,8 +17,8 @@ print(greet[1])  # "e"
 # negative indexing
 greet = 'hello'
 
-# access 1st index element
-print(greet[1])  # "e"
+# access last index element
+print(greet[-1])  # "o"
 
 # !slicing
 greet = 'Hello'

@@ -36,7 +36,7 @@ numbers = [21, 34, 54, 12]
 numbers.append("One")
 print(numbers)
 
-# extend(): add all items of an iterable
+# extend(): add all items of an iterable/extend a list/array
 numbers = [2, 4, 6]
 oddNumbers = [1, 3, 5]
 numbers.extend(oddNumbers)

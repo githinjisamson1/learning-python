@@ -19,10 +19,10 @@ print(num3, 'is of type', type(num3))
 # hexadecimal: 0x
 
 # !type conversion
-# implicit: done automatically
+# implicit: done automatically/small to large/avoids data loss
 print(1 + 2.0)  # prints 3.0
 
-# explicit: done manually
+# explicit: done manually/large to small/data maybe lost
 num1 = int(2.3)
 print(num1)  # prints 2
 
@@ -36,7 +36,7 @@ num4 = complex('3+5j')
 print(num4)  # prints (3 + 5j)
 
 # !random module
-# get random item from range
+# get random item from range/last item is excluded
 print(random.randrange(10, 20, 2))
 
 # get random item from fruits 

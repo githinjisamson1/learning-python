@@ -1,5 +1,5 @@
 
-# !dictionary
+# !dictionary: similar to object in js
 # collection of related items stored as key-value pairs
 # Dictionary keys must be immutable, such as tuples, strings, integers, etc
 # We cannot use mutable (changeable) objects such as lists as keys.
@@ -83,6 +83,6 @@ countryCapitals = {"Kenya": "Nairobi",
 print("Kenya" in countryCapitals)
 print("Sudan" not in countryCapitals)
 
-# !iterate over a dictionary
+# !iterate over a dictionary/we normally iterate over dictionary keys
 for item in countryCapitals:
     print(item)

@@ -61,7 +61,7 @@ for item in studentIds:
     print(item)
 
 # !check if item exists in tuple
-languages = ["JavaScript", "Python", "Kotlin"]
+languages = ("JavaScript", "Python", "Kotlin")
 print("JavaScript" in languages)
 
 # TODO:  advantages of a tuple over a list
