@@ -4,11 +4,12 @@
 # !Access Class Attributes Using Objects
 # define a class
 class Bike:
+    # class attributes
     name = ""
     gear = 0
 
 
-# create object of class
+# create object of class/instantiation
 bike1 = Bike()
 
 # access attributes and assign new values/dot notation
@@ -21,7 +22,7 @@ print(f"Name: {bike1.name}, Gears: {bike1.gear} ")
 # !Create Multiple Objects of Python Class
 # define a class
 class Employee:
-    # define an attribute
+    # define a class attribute
     employee_id = 0
 
 
@@ -41,10 +42,11 @@ print(f"Employee ID: {employee2.employeeID}")
 # !Python Methods
 # create a class
 class Room:
+    # class attributes
     length = 0.0
     breadth = 0.0
 
-    # method to calculate area
+    # method to calculate area/instance method
     def calculate_area(self):
         print("Area of Room =", self.length * self.breadth)
 

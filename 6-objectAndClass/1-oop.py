@@ -1,7 +1,7 @@
 
 # !pillars of oop
-# 1. inheritance: child class derives attributes/xtics from the parent class/child class can have its own attributes/can override
-# 2. encapsulation: bundling of data/data hiding
+# 1. inheritance: child class derives attributes/xtics from the parent class/child class can have its own attributes/can override parent methods
+# 2. encapsulation: bundling of data/data hiding/enhances privacy
 # 3. abstraction: hiding away the difficult parts/implementing important details
 # 4. polymorphism: an object having more than one form
 
@@ -9,12 +9,12 @@
 # methods: functions inside a class
 
 class Parrot:
-    # attributes
+    # class attributes
     name = ""
     age = None
 
 
-# instantiation
+# instantiation/object creation
 parrot1 = Parrot()
 parrot1.name = "Blu"
 parrot1.age = 10
@@ -31,7 +31,7 @@ print(f"{parrot2.name} is {parrot2.age} years old")
 # base/parent class
 class Animal:
     def eat(self):
-        print("I an eat!")
+        print("I can eat!")
 
     def sleep(self):
         print("I can sleep!")
@@ -56,9 +56,9 @@ dog1.sleep()
 dog1.bark()
 
 
-# !encapsulation: bundling of data
+# !encapsulation: bundling of data/enhances privacy
 class Computer:
-
+    # constructor
     def __init__(self):
         # private attribute/use underscore or double underscore
         self.__maxprice = 900
@@ -84,7 +84,7 @@ c.sell()
 
 
 # !polymorphism: object having more than one form
-# render() is polymorphic
+# render() is polymorphic/has more than one form
 class Polygon:
     # method to render a shape
     def render(self):

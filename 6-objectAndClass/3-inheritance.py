@@ -15,16 +15,17 @@ class sub_class(super_class):
 # !inheritance e.g.,
 class Animal:
 
-    # attribute and method of the parent class
+    # attribute and method of the parent class/class attribute
     name = ""
 
+    # instance method
     def eat(self):
         print("I can eat")
 
 # inherit from Animal
 class Dog(Animal):
 
-    # new method in subclass
+    # new method in subclass/instance method
     def display(self):
         # access name attribute of superclass using self
         print("My name is ", self.name)
@@ -56,6 +57,7 @@ class Polygon:
         self.sides = [0 for i in range(no_of_sides)]
 
     def inputSides(self):
+        # update self.sides list
         self.sides = [float(input("Enter side "+str(i+1)+" : "))
                       for i in range(self.n)]
 

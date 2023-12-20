@@ -68,3 +68,7 @@ print(p2 < p1)  # prints False
 # Makes it simpler to write code, especially for complex data types.
 
 # Allows for code reuse by implementing one operator method and using it for other operators.
+
+# operator overloading: how python works under the hood: here above we are adding/comparing two classes
+# __add__ and __lt__ are called under the hood
+# same operator different meaning according to context == operator overloading

@@ -105,7 +105,7 @@ class SuperClass2:
 class Derived(SuperClass1, SuperClass2):
     pass
 
-
+# method resolution order MRO == leftmost superclass first
 d1 = Derived()
 d1.info()
 
