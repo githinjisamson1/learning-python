@@ -19,7 +19,7 @@ print(constants.PI, constants.GRAVITY)
 
 #!literals: literals are values assigned
 site_name = "programiz.com"
-result1 = True
+result1 = True  # boolean literal
 someCharacter = "B"
 someString = "Python is fun"
 value = None

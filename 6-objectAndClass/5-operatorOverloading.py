@@ -28,6 +28,7 @@ class Point:
     def __str__(self):
         return "({0},{1})".format(self.x, self.y)
 
+    # override + operator
     def __add__(self, other):
         x = self.x + other.x
         y = self.y + other.y
@@ -50,6 +51,7 @@ class Person:
         self.age = age
 
     # overload < operator
+    # other represents second object being compared to
     def __lt__(self, other):
         return self.age < other.age
 

@@ -17,11 +17,11 @@ class Parrot:
 # instantiation/object creation
 parrot1 = Parrot()
 parrot1.name = "Blu"
-parrot1.age = 10
+parrot1.age = 3
 
 parrot2 = Parrot()
 parrot2.name = "Woo"
-parrot2.age = 15
+parrot2.age = 5
 
 print(f"{parrot1.name} is {parrot1.age} years old")
 print(f"{parrot2.name} is {parrot2.age} years old")

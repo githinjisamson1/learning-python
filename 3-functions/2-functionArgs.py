@@ -25,7 +25,7 @@ def displayInfo(firstname, lastname):
 displayInfo(lastname="Doe", firstname="John")
 
 
-# !with arbitrary args/unknown number of args
+# !with arbitrary args/unknown number of args/infinite number of args
 def findSum(*numbers):
     result = 0
 

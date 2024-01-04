@@ -11,7 +11,7 @@
 # !logical
 # and: both must be true
 # or: at least one is true
-# not: reverse
+# not: reverse is true
 # TODO: check truth table
 
 # !bitwise

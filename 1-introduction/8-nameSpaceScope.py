@@ -4,12 +4,12 @@
 # global namespace: in module
 # local namespace: in function
 
-# define global variable/global namespace
+# define global variable/global namespace/in module
 global_var = 10
 
 
 def my_function():
-    # define local variable/local namespace
+    # define local variable/local namespace/in function
     local_var = 20
 
     # !modify global variable value/will rarely do so

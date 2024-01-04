@@ -39,7 +39,7 @@ studentIds = {1, 2, 3, 4, 5}
 print(studentIds)
 print(type(studentIds))
 
-# dict: ordered/key-value pairs
+# dict: ordered/key-value pairs == similar to object in JavaScript
 # student = {"name": "John Doe", "age": 21, "gender": "male"}
 student = {
     "name": "John Doe",
